@@ -92,3 +92,4 @@ export class ArtistasService extends DadosBaseService {
     return this.http.delete(this.URL.concat(`${id}/`));
   }
 }
+ 

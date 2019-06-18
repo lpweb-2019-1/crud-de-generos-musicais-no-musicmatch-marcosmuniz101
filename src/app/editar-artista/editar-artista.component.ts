@@ -10,7 +10,8 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class EditarArtistaComponent implements OnInit {
   artista = null;
-  foto = null;
+  foto = null; 
+  
 
   constructor(private artistas$: ArtistasService,
     private route: ActivatedRoute,
